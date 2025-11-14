@@ -15,6 +15,8 @@ npm install http-status-codes
 ---
 ## 🧠 Usage
 
+
+## Example 1
 ```js
 import { HttpStatus, getStatusMessage, getStatusCode, getCategory } from 'http-status-codes';
 
@@ -23,6 +25,27 @@ console.log(getStatusMessage(404)); // "Not Found"
 console.log(getStatusCode("Created")); // 201
 console.log(getCategory(503)); // "Server Error"
 ```
+
+## Example 2
+```js
+import express from 'express';
+import { HttpStatus} from 'http-status-codes';
+
+const app = express();
+
+app.get('/',(req,res)=>{
+    res.status(HttpStatus.OK).json({message:"Hello World !"})
+})
+
+
+app.listen(5000,()=>{
+    console.log('server is running on port 5000')
+})
+
+
+
+```
+
 
 
 ---
