@@ -1,12 +1,12 @@
 // index.js
 export const HttpStatus = {
-  // 1xx Informational
+ 
   CONTINUE: 100,
   SWITCHING_PROTOCOLS: 101,
   PROCESSING: 102,
   EARLY_HINTS: 103,
 
-  // 2xx Success
+
   OK: 200,
   CREATED: 201,
   ACCEPTED: 202,
@@ -18,7 +18,7 @@ export const HttpStatus = {
   ALREADY_REPORTED: 208,
   IM_USED: 226,
 
-  // 3xx Redirection
+
   MULTIPLE_CHOICES: 300,
   MOVED_PERMANENTLY: 301,
   FOUND: 302,
@@ -28,7 +28,7 @@ export const HttpStatus = {
   TEMPORARY_REDIRECT: 307,
   PERMANENT_REDIRECT: 308,
 
-  // 4xx Client Errors
+
   BAD_REQUEST: 400,
   UNAUTHORIZED: 401,
   PAYMENT_REQUIRED: 402,
@@ -59,7 +59,7 @@ export const HttpStatus = {
   REQUEST_HEADER_FIELDS_TOO_LARGE: 431,
   UNAVAILABLE_FOR_LEGAL_REASONS: 451,
 
-  // 5xx Server Errors
+
   INTERNAL_SERVER_ERROR: 500,
   NOT_IMPLEMENTED: 501,
   BAD_GATEWAY: 502,
