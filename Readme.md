@@ -10,7 +10,7 @@ A lightweight and developer-friendly utility for working with **HTTP status code
 npm install http-status-codes
 ```
 
----
+
 
 ---
 ## 🧠 Usage
@@ -23,7 +23,7 @@ console.log(getStatusMessage(404)); // "Not Found"
 console.log(getStatusCode("Created")); // 201
 console.log(getCategory(503)); // "Server Error"
 ```
----
+
 
 ---
 🧩 Features
@@ -38,7 +38,6 @@ console.log(getCategory(503)); // "Server Error"
 
 ---
 
----
 📊 API Reference
 
 | Function                 | Description                                             |
@@ -49,4 +48,4 @@ console.log(getCategory(503)); // "Server Error"
 | `getCategory(code)`      | Returns category ("Client Error", "Server Error", etc.) |
 
 
----
+
