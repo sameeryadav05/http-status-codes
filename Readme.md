@@ -7,7 +7,7 @@ A lightweight and developer-friendly utility for working with **HTTP status code
 
 ## 📦 Installation
 ```bash
-npm install status-code
+npm install http-status-codes-helper
 ```
 
 
@@ -18,7 +18,7 @@ npm install status-code
 
 ## Example 1
 ```js
-import { HttpStatus, getStatusMessage, getStatusCode, getCategory } from 'status-code';
+import { HttpStatus, getStatusMessage, getStatusCode, getCategory } from 'http-status-codes-helper';
 
 console.log(HttpStatus.OK); // 200
 console.log(getStatusMessage(404)); // "Not Found"
@@ -29,7 +29,7 @@ console.log(getCategory(503)); // "Server Error"
 ## Example 2
 ```js
 import express from 'express';
-import { HttpStatus} from 'status-code';
+import { HttpStatus} from 'http-status-codes-helper';
 
 const app = express();
 
