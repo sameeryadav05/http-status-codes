@@ -1,0 +1,28 @@
+{
+  "name": "http-status-codes",
+  "version": "1.0.0",
+  "description": "Lightweight utility for working with all official HTTP status codes and messages in Node.js.",
+  "main": "index.js",
+  "type": "module",
+  "keywords": [
+    "http",
+    "status-codes",
+    "api",
+    "express",
+    "node",
+    "sameer-yadav",
+    "utility"
+  ],
+  "author": "Sameer Manoj Yadav <sameermanoj2005@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sameeryadav05/http-status-codes"
+  },
+  "homepage": "https://www.npmjs.com/package/@sameeryadav/http-status-codes",
+  "exports": {
+    ".": {
+      "import": "./index.js"
+    }
+  }
+}
