@@ -1,5 +1,5 @@
 {
-  "name": "http-status-codes",
+  "name": "status-code",
   "version": "1.0.0",
   "description": "Lightweight utility for working with all official HTTP status codes and messages in Node.js.",
   "main": "index.js",
