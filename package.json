@@ -19,7 +19,7 @@
     "type": "git",
     "url": "https://github.com/sameeryadav05/http-status-codes"
   },
-  "homepage": "https://www.npmjs.com/package/@sameeryadav05/http-status-codes",
+  "homepage": "https://www.npmjs.com/package/http-status-codes-helper",
   "exports": {
     ".": {
       "import": "./index.js"
