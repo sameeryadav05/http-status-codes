@@ -7,12 +7,12 @@ A lightweight and developer-friendly utility for working with **HTTP status code
 
 ## 📦 Installation
 ```bash
-npm install @sameeryadav/http-status-codes
+npm install http-status-codes
 ```
 
 ---
 
-```markdown
+
 ## 🧠 Usage
 
 ```js
@@ -23,4 +23,4 @@ console.log(getStatusMessage(404)); // "Not Found"
 console.log(getStatusCode("Created")); // 201
 console.log(getCategory(503)); // "Server Error"
 
----
+```
