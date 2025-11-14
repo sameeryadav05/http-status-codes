@@ -29,8 +29,11 @@ console.log(getCategory(503)); // "Server Error"
 🧩 Features
 
 ✅ All official IANA HTTP status codes
+
 ✅ Easy to use constants (HttpStatus.OK, etc.)
+
 ✅ Helper functions for lookup and categorization
+
 ✅ Lightweight, zero dependencies
 
 ---
